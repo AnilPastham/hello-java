@@ -1,8 +1,8 @@
 # Pull base image
-FROM openjdk:8-alpine
+FROM tomcat:latest
 
 # Maintainer
-MAINTAINER "Manuel Resinas <resinas@us.es">
+MAINTAINER "anil.pastam@zolontech.com">
 
 # Set variables
 ENV PORT 8080
